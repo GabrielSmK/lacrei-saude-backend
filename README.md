@@ -8,7 +8,7 @@
 
 ## Introdução
 
-Esta é uma desenvolvida para gerenciar informações de profissionais de saúde e consultas médicas. Este projeto faz parte do projeto voluntário Lacrei Saúde, que visa facilitar o acesso à serviços de saúde, com foco especial na comunidade LGBTQIAPN+.
+Esta é uma desenvolvida para gerenciar informações de profissionais de saúde e consultas médicas. Este projeto faz parte do projeto voluntário Lacrei Saúde, com foco especial na comunidade LGBTQIAPN+.
 
 A API permite:
 - Cadastro, atualização, consulta e remoção de profissionais de saúde
