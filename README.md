@@ -102,7 +102,7 @@ Digite o link http://127.0.0.1:8000/docs em seu navegador
 cd D:\lacrei-saude-backend\lacrei-saude-backend\tests
 ```
 
-####2. Execute o comando
+#### 2. Execute o comando
 
 ```
 pytest test_api.py
