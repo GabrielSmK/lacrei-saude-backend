@@ -38,31 +38,71 @@ SQLAlchemy é nosso ORM (Object-Relational Mapping) de escolha porque:
 ## Instalação e Execução
 
 ### Pré-requisitos
-- Python 3.8+
-- Poetryi
+- Python 3.12+
+- Poetry
 
-1. Instale o pipx
- 
+#### 1. Instale o pipx
+
+ ```
   py -m pip install --user pipx
   py -m pip install pipx
   py -m pipx ensurepath
+  (Reinicie o Visual Studio)
+  ```
 
-2. Instale o poetry
+#### 2. Instale o poetry
 
+```
 pipx install poetry
+```
 
-3. Instale as dependências com Poetry:
+#### 3. Instale as dependências com Poetry:
+
+```
+cd lacrei-saude-backend
 
 poetry install
+```
+#### 4. Há uma chance do Poetry não instalar algumas depdendência, execute os seguintes comandos por precaução:
 
-4. Execute o poetry
+```
+pip install pytest
 
+pip install sqlalchemy
+
+pip install httpx
+
+pip install fastapi
+```
+
+#### 5. Execute o poetry
+
+```
 poetry shell
+```
 
-5. Execute a FastAPI
+#### 6. Execute a FastAPI
 
+```
 uvicorn lacrei_saude_backend.main:app --reload
+```
 
-6. Acesse a interface da FastAPI
+#### 7. Acesse a interface da FastAPI
 
+```
 Digite o link http://127.0.0.1:8000/docs em seu navegador
+```
+
+## Execução de teste unitário
+
+#### 1. Entre na pasta de testes
+
+```
+cd D:\lacrei-saude-backend\lacrei-saude-backend\tests
+```
+
+####2. Execute o comando
+
+```
+pytest test_api.py
+```
