@@ -5,7 +5,7 @@
 * [Introdução](#introdução)
 * [Tecnologias Utilizadas](#tecnologias-utilizadas)
 * [Instalação e Execução](#instalação-e-execução)
-* [Execução de teste unitário](#instalação-e-execução)
+* [Execução de teste unitário](#execução-de-teste-unitário)
 
 ## Introdução
 
