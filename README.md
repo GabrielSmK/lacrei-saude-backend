@@ -64,7 +64,7 @@ cd lacrei-saude-backend
 
 poetry install
 ```
-#### 4. Há uma chance do Poetry não instalar algumas depdendência, execute os seguintes comandos por precaução:
+#### 4. Há uma chance do Poetry não instalar algumas dependências, execute os seguintes comandos por precaução:
 
 ```
 pip install pytest
